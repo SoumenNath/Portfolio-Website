@@ -13,7 +13,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="animate-fadeIn" style={{ textAlign: "center" }}>
-        <h1 style={{ fontSize: "3rem", fontWeight: "bold", color: "var(--foreground)" }}>Hi, I'm Your Name</h1>
+        <h1 style={{ fontSize: "3rem", fontWeight: "bold", color: "var(--foreground)" }}>Hi, I&apos;m Your Name</h1>
         <p style={{ color: "var(--secondary)", fontSize: "1.25rem", margin: "1rem 0" }}>
           I build full-stack web applications and explore computer vision projects.
         </p>
@@ -76,9 +76,9 @@ export default function HomePage() {
 
       {/* Call-to-Action Section */}
       <section className="animate-fadeIn" style={{ textAlign: "center" }}>
-        <h2 style={{ fontSize: "2rem", fontWeight: "bold", color: "var(--foreground)" }}>Let's Build Something Together</h2>
+        <h2 style={{ fontSize: "2rem", fontWeight: "bold", color: "var(--foreground)" }}>Let&apos;s Build Something Together</h2>
         <p style={{ color: "var(--secondary)", margin: "1rem 0 2rem" }}>
-          Interested in working together on a project or hiring me? Reach out and let's create something amazing.
+          Interested in working together on a project or hiring me? Reach out and let&apos;s create something amazing.
         </p>
         <Link href="/contact">
           <button style={{ backgroundColor: "var(--primary)", color: "white", padding: "0.75rem 1.5rem", borderRadius: "0.5rem", cursor: "pointer", transition: "transform 0.2s" }}
