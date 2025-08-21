@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomePage() {
   const projects = [
@@ -13,6 +14,18 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="animate-fadeIn" style={{ textAlign: "center" }}>
+         {/* Profile Image */}
+        <div style={{ display: "flex", justifyContent: "center", marginBottom: "1.5rem" }}>
+          <Image
+            src="/image2.jpg" 
+            alt="Your Name"
+            width={200}
+            height={160}
+            className="rounded-full shadow-lg object-cover mx-auto mb-4"
+            
+          />
+        </div>
+            
         <h1 style={{ fontSize: "3rem", fontWeight: "bold", color: "var(--foreground)" }}>Hi, I&apos;m Your Name</h1>
         <p style={{ color: "var(--secondary)", fontSize: "1.25rem", margin: "1rem 0" }}>
           I build full-stack web applications and explore computer vision projects.
